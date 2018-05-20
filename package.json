@@ -10,7 +10,8 @@
   },
   "scripts": {
     "test": "react-scripts test --env=jsdom",
-    "start": "start-storybook -p 9009 -s public"
+    "start": "start-storybook -p 9009 -s public",
+    "deploy": "storybook-to-ghpages"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.5",
